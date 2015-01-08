@@ -1,17 +1,17 @@
 package com.chapter4._ach.FactoryMethod;
 
-public class PrivateDealerStore extends Store {
+public class StoreBMWDealer extends Store {
 
 	@Override
+	public
 	Car createCar(String type) {
 		if(type == "Sedan"){
-			return new SedanPrivateDealerCar();
+			return new CarSedanBMWDealer();
 		} else if (type == "SUV"){
-			return new SUVPrivateDealerCar();
+			return new CarSUVBMWDealer();
 		} else {
 			return null;
 		}
-		
 	}
 
 }

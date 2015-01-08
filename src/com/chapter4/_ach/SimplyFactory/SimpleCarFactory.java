@@ -17,9 +17,9 @@ public class SimpleCarFactory {
 		Car car;
 		
 		if(type.equals("Sedan")){
-			car = new SedanCar();
+			car = new CarSedan();
 		} else if (type.equals("SUV")){
-			car = new SuvCar();
+			car = new CarSuv();
 		} else {
 			System.out.println("Unknown type of car");
 			car = null;

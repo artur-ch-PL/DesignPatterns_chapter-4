@@ -7,7 +7,7 @@ public class Store {
 		this.scf = simpleCarFactory;
 	}
 
-	Car orderCar(String type) {
+	public Car orderCar(String type) {
 		/*
 		 * WHY below NEW is BAD?
 		 * 
