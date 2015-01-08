@@ -29,8 +29,8 @@ public class Store {
 		
 		car = scf.createCar(type);
 		
-		car.getName();
-		car.mountWheels();
+		car.printName();
+		car.printWheelSize();
 		car.printDoorsNumber();
 		
 		return car;

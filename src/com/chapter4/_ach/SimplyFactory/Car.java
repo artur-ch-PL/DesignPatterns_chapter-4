@@ -5,11 +5,11 @@ abstract public class Car {
 	String wheelSize;
 	int doorsNumber;
 	
-	public String getName(){
-		return "Car type:" + name;
+	public void printName(){
+		System.out.println("Car type:\t" + name); 
 	}
 	
-	public void mountWheels(){
+	public void printWheelSize(){
 		System.out.println("Wheels get size:\t" + wheelSize);
 	}
 	

@@ -4,8 +4,13 @@ public class BMWDealerStore extends Store {
 
 	@Override
 	Car createCar(String type) {
-		// TODO Auto-generated method stub
-		return null;
+		if(type == "Sedan"){
+			return new SedanBMWDealerCar();
+		} else if (type == "SUV"){
+			return new SUVBMWDealerCar();
+		} else {
+			return null;
+		}
 	}
 
 }

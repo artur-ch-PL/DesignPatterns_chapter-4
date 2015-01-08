@@ -2,7 +2,7 @@ package com.chapter4._ach.SimplyFactory;
 
 public class SuvCar extends Car{
 	public SuvCar(){
-		name = "Suv";
+		name = "SUV";
 		wheelSize = "20\"";
 		doorsNumber = 2;
 	};

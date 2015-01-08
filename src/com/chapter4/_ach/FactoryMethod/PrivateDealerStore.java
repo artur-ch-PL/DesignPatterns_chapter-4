@@ -4,8 +4,14 @@ public class PrivateDealerStore extends Store {
 
 	@Override
 	Car createCar(String type) {
-		// TODO Auto-generated method stub
-		return null;
+		if(type == "Sedan"){
+			return new SedanPrivateDealerCar();
+		} else if (type == "SUV"){
+			return new SUVPrivateDealerCar();
+		} else {
+			return null;
+		}
+		
 	}
 
 }

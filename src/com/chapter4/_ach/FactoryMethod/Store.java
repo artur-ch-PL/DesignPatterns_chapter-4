@@ -6,7 +6,7 @@ public abstract class Store {
 
 	public Car orderCar(String type){
 		Car car;
-		car = createCar(type);
+		car = orderCar(type);
 		return car;
 	}
 		
