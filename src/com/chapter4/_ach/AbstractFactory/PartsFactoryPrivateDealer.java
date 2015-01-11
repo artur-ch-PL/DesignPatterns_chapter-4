@@ -4,20 +4,17 @@ public class PartsFactoryPrivateDealer implements PartsFactory {
 
 	@Override
 	public CarBattery orderCarBattery() {
-		// TODO Auto-generated method stub
-		return null;
+		return new CarBatteryVarta();
 	}
 
 	@Override
 	public Suspension orderSuspension() {
-		// TODO Auto-generated method stub
-		return null;
+		return new SuspensionDanmarkSilencer();
 	}
 
 	@Override
 	public Tyres orderTyres() {
-		// TODO Auto-generated method stub
-		return null;
+		return new TyresKormoran();
 	}
 
 

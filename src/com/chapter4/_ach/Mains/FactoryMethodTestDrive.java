@@ -1,5 +1,10 @@
 package com.chapter4._ach.Mains;
 
+/*
+ * FactoryMethod - define an interface for creating an object, but let subclasses decide which class to instantiate. 
+ * Factory Method lets a class defer instation to the subclasses.
+ */
+
 import com.chapter4._ach.FactoryMethod.StoreBMWDealer;
 import com.chapter4._ach.FactoryMethod.Car;
 import com.chapter4._ach.FactoryMethod.StorePrivateDealer;
