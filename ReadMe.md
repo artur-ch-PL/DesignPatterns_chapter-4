@@ -1,16 +1,24 @@
-Factory pattern
+# Factory patterns
 
-OO Priciple
+=
+Oriented Object Principle
+=
 Depend on abstraction. DO NOT DEPEND on concrete classes
 
+=
 Abstract Factory
+=
 Provide an interface for creating families related or dependent objects without specifying their concrete classes.
 
+=
 Factory Method
+=
 Define an interface for creating an object, but let subclasses decide with class to instantiate. 
 Factory Method lets a class defer instatiation to the subclasses.
 
-In short:
+=
+In short
+=
 - all factories encapsulate object creation
 - Simply Factory, is not a design pattern, it is a simple way to decouple yours clients from concrete classes
 - Factory Method relies on inheritence: object creation is delegated to subclasses which implement the factory method to create object
