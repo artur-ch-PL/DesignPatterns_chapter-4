@@ -6,9 +6,10 @@ public class StorePrivateDealer extends Store {
 	public
 	Car createCar(String type) {
 		PartsFactory pf = new PartsFactoryPrivateDealer();
-		if(type == "Sedan"){
+
+		if(type.equals("Sedan")){
 			return new CarSedanPrivateDealer(pf);
-		} else if (type == "SUV"){
+		} else if (type.equals("SUV")){
 			return new CarSUVPrivateDealer(pf);
 		} else {
 			return null;

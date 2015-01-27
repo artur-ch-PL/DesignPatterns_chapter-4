@@ -6,9 +6,9 @@ public class StoreBMWDealer extends Store {
 	public
 	Car createCar(String type) {
 		PartsFactory partsFactory = new PartsFactoryBMWDealer();
-		if(type == "Sedan"){
+		if(type.equals("Sedan")){
 			return new CarSedanBMWDealer(partsFactory);
-		} else if (type == "SUV"){
+		} else if (type.equals("SUV")){
 			return new CarSUVBMWDealer(partsFactory);
 		} else {
 			return null;

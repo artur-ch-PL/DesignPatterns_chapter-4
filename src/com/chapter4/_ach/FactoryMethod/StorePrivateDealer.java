@@ -5,9 +5,9 @@ public class StorePrivateDealer extends Store {
 	@Override
 	public
 	Car createCar(String type) {
-		if(type == "Sedan"){
+		if(type.equals("Sedan")){
 			return new CarSedanPrivateDealer();
-		} else if (type == "SUV"){
+		} else if (type.equals("SUV")){
 			return new CarSUVPrivateDealer();
 		} else {
 			return null;
