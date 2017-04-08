@@ -9,13 +9,13 @@ public class AbstractFactoryTest {
 
 	public static void main(String[] args) {
 		Store bmwStore = new StoreBMWDealer();
-		Store privateStore = new StorePrivateDealer();
+		Store privateStoreDealer = new StorePrivateDealer();
 		Car car;
 		
 		car = bmwStore.orderCar("SUV");
 		viewCarConstruction(car);
 		
-		car = privateStore.orderCar("SUV");
+		car = privateStoreDealer.orderCar("SUV");
 		viewCarConstruction(car);
 	}
 	

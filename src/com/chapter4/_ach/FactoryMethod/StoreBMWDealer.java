@@ -8,7 +8,8 @@ public class StoreBMWDealer extends Store {
 	@Override
 	public
 	Car createCar(String type) {
-		PartsFactory pf = new PartsFactoryBMWDealer();
+		@SuppressWarnings("unused")
+		PartsFactory partsFactory = new PartsFactoryBMWDealer();
 		if(type.equals("Sedan")){
 			return new CarSedanBMWDealer();
 		} else if (type.equals("SUV")){

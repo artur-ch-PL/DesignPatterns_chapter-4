@@ -9,8 +9,8 @@ public class SimpleFactoryTestDrive {
 		System.out.println("Simple Factory Example");
 		System.out.println("--------------------------");
 		
-		SimpleCarFactory scf = new SimpleCarFactory();
-		Store store = new Store(scf);
+		SimpleCarFactory simpleCarFactory = new SimpleCarFactory();
+		Store store = new Store(simpleCarFactory);
 		
 		store.orderCar("SUV");
 		store.orderCar("Sedan");
